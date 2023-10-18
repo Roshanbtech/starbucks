@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+    <!-- Link to CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--Bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+       <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#" ><img src="img/logo.png" style="height:50px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-5">
+                <a class="nav-link"  href="#home">Home</a>
+              </li>
+              <li class="nav-item ms-5" id="nav-li">
+                <a class="nav-link" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item dropdown ms-5">
+                <a class="nav-link " href="#delivery">
+                  Delivery
+                </a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link " href="#app">App</a>
+              </li>
+              <li class="nav-item ms-5" >
+                <a class="nav-link " href="#about">About</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link " href="#contact">Contact</a>
+              </li>
+              <a  href="https://www.starbucks.com/account/create"><button type="button" id="btlgn" class="btn btn-outline-success ms-5 text-success">Login</button></a>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+   
+
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome To</span>
+            <h1>Starbucks Coffee</h1>
+            <h2>Free Coffee is a <br>tap away</h2>
+            <a href="https://www.starbucks.com/account/create" onclick="Login()" target="_blank" class="bt">Join Now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home.png"  alt="home image">
+        </div>
+    </section>
+
+
+
+
+
+    <!-- try -->
+    <!-- <div class="alert alert-primary" role="alert">
+        <h4>Do you want to continue?</h4>
+        <p>Please click<a class="alert-link" href="">here</a></p>
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div> -->
+        <!-- try -->
+
+
+
+
+
+    <!-- slide -->
+
+<div id="hero-carousel" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="img/Starbucks_190.jpg" class="d-block   c-img" alt="Slide 1">
+        
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/K2njBxn.jpg" class="d-block  c-img" alt="Slide 2">
+        
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/buy_one.jpg" class="d-block c-img" alt="Slide 3">
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <!-- Shop -->
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop Now</span>
+            <h1>Shop Coffee</h1>
+        </div>
+        <div class="shop-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/shop1.png" alt="juice 1">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>Strawberry Milkshake</h2>
+                <span>$ 12.4</span>
+                <a href="https://www.starbucks.in/ordering" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/shop2.png" alt="juice2">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>Chocolate Chip Frappuccino </h2>
+                <span>$ 12.4</span>
+                <a href="https://www.starbucks.in/ordering" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/shop3.png" alt="juice3">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>Java Chip Frappuccino</h2>
+                <span>$ 12.4</span>
+                <a href="https://www.starbucks.in/ordering" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery -->
+
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get Now</span>
+            <h1>Order With Uber Eats</h1>
+        </div>
+        <div class="container">
+            <div class="delivery-img">
+                <img src="img/delivery.png" alt="deliveryimage ">
+            </div>
+            <div class="delivery-text">
+                <h2>Today deserve delivery</h2>
+                <p>In a world where you cant walk around the block for a coffee break, we needed to find a new way to help Starbucks fit into your life. After all, the world keeps spinning, and coffee keeps it turning on time.</p>
+                <p>A smart delivery partnership with Uber Eats meant a safe way to bring that coffee break to you, and with it a well deserved me-moment that can brighten any day.</p>
+                <a href="https://www.starbucks.com/ways-to-order/delivery/" class="bt">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- App -->
+
+    <section class="app" id="app">
+        <div class="heading">
+            <span>Our App</span>
+            <h1>Download App</h1>
+        </div>
+        <div class="container">
+           
+            <div class="app-text">
+                <h2>Today deserve delivery</h2>
+                <p>Get the best of Starbucks® Rewards right at your fingertips. Use our mobile app to order ahead and pay at participating locations or to track the Stars.</p>
+                <p>Rewards youve earned—whether youve paid with cash, credit card or Starbucks Card. Find stores, redeem offers and so much more.</p>
+                <a href="https://www.starbucks.com/rewards/mobile-apps/" class="bt">Get App</a>
+            </div>
+            <div class="app-img">
+                <img src="img/app.png" alt="app image">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We are striving to become resource positive - giving back more than we take from the planet. We are working to store more carbon than we emit, </p>
+            <p>replenish more freshwater than we use, and eliminate waste.We know we can't do it alone. It takes all of us.</p>
+            <a href="https://www.starbucks.in/community" class="bt">Learn More</a>
+        </div>
+
+    </section>
+    
+    <!-- Contact -->
+
+    <div class="contact" id="contact">
+        <div class="social">
+            <a href="https://www.facebook.com/Starbucks/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fstarbucks%2F"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/starbucks/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/starbucks"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="links">
+            <a href="https://www.starbucks.com/terms/privacy-policy/">Privacy Policy</a>
+            <a href="https://www.starbucks.com/terms/starbucks-terms-of-use/">Terms Of Use</a>
+            <a href="https://www.starbucks.com/about-us/">Our Company</a>
+        </div>
+        <p> &#169; Starbucks Coffee Company All Right Reserved. </p>
+    </div>
+
+    <!-- Link to JS -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
